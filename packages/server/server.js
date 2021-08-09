@@ -5,7 +5,7 @@ const Logger = require("./src/logger");
 const HttpServer = require("./src/httpServer");
 
 const basePath = process.env.BASE_PATH || "web";
-const httpPort = process.env.PORT || 80;
+const httpPort = 8080;
 const httpsPort = 55543;
 const key = process.env.KEY || "certificates/localhost.key";
 const cert = process.env.CERT || "certificates/localhost.pem";
