@@ -7,7 +7,7 @@ A self-hosted, lightweight speed test implemented in JavaScript, and based on [W
   - [Usage](#usage)
     - [Compatibility](#compatibility)
     - [Features](#features)
-    - [Requirements](#requirements)
+    - [Requirements](#requireme)
     - [Configuration](#configuration)
       - [Endpoints configuration](#endpoints-configuration)
     - [Docker](#docker)
