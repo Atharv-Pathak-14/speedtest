@@ -9,13 +9,7 @@
     "url": "https://github.com/e7d/speedtest.git"
   },
   "scripts": {
-    "build": "lerna run build",
-    "build:dev": "lerna run build:dev",
-    "setup": "npm ci && lerna bootstrap",
-    "setup:dev": "npm i && lerna bootstrap",
-    "start": "lerna run start --stream",
-    "start:dev": "lerna run start:dev --stream",
-    "test": "lerna run test"
+ "start": "npm ci && lerna bootstrap && lerna run build && lerna run start --stream"
   },
   "engines": {
     "node": "12.x.x",
