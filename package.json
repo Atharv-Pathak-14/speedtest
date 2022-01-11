@@ -17,6 +17,10 @@
     "start:dev": "lerna run start:dev --stream",
     "test": "lerna run test"
   },
+  "engines": {
+    "node": "12.x.x",
+    "npm": "7.x.x"
+  },
   "bugs": {
     "url": "https://github.com/e7d/speedtest/issues"
   },
