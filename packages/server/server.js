@@ -6,7 +6,7 @@ const HttpServer = require("./src/httpServer");
 
 const basePath = process.env.BASE_PATH || "web";
 const httpPort = process.env.HTTP_PORT || 80;
-const httpsPort = 8080
+const httpsPort = process.env.HTTPS_PORT || 443;
 const key = process.env.KEY || "certificates/localhost.key";
 const cert = process.env.CERT || "certificates/localhost.pem";
 const ca = process.env.CA || undefined;
